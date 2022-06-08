@@ -1,0 +1,10 @@
+# music
+### A repository of all the things I program to assist me with music.
+
+## Ideas
+1. Metronome
+2. Chord Spelling
+3. Inversion Spelling
+4. Guitar Fingering
+5. Random Practice Mode
+6. Documenting what I am spending my time on
