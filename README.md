@@ -3,6 +3,7 @@
 
 ## Ideas
 1. Metronome
+   1. A queue based metronome to support 4/4 (Fo(u)r now) at varying speed.
 2. Chord Spelling
 3. Inversion Spelling
 4. Guitar Fingering
