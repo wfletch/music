@@ -4,6 +4,8 @@
 ## Ideas
 1. Metronome
    1. A queue based metronome to support 4/4 (Fo(u)r now) at varying speed.
+   2. The idea is to have control messages to flush the queue as appropriate
+   3. Probably not the best use of queues, but... let's see what we got!
 2. Chord Spelling
 3. Inversion Spelling
 4. Guitar Fingering
