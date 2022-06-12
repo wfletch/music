@@ -13,5 +13,5 @@ while True:
     index+=1
     if time_grid[index%len(time_grid)]:
         playsound.playsound("./samples/metronome.mp3")
-    time.sleep(0.125)
+    time.sleep(0.125/4)
 
