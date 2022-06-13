@@ -1,6 +1,12 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"os"
+	"os/signal"
+
+	"github.com/gordonklaus/portaudio"
+)
 
 func main() {
 	fmt.Println("Why hello Mr Fletcher.")
@@ -14,4 +20,7 @@ func main() {
 		}
 	}
 	fmt.Printf("Metronome Configuratio: %d \n", grid)
+	sig := make(chan os.Signal, 1)
+	signal.Notify(sig, os.Interrupt, os.Kill)
+	portaudio.Initialize()
 }
