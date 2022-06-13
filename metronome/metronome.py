@@ -9,7 +9,7 @@ for i in range(0, len(time_grid), 1):
         time_grid[i] = 2
     if (i%32) == 0:
         time_grid[i] = 1
-
+# Fuck it, I'm going to do this in go.
 index = 0
 print(time_grid)
 while True:
